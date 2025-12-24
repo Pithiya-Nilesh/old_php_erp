@@ -1,0 +1,232 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-12-23 15:55:33.247159",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "gr_no",
+  "name1",
+  "father_name",
+  "mother_name",
+  "surname",
+  "stdnm_guj",
+  "std_father_guj",
+  "std_mother_guj",
+  "photo",
+  "add_1",
+  "add_2",
+  "add_3",
+  "city",
+  "pincode",
+  "taluka",
+  "district",
+  "state",
+  "gender",
+  "phone_no",
+  "mob_no",
+  "dob",
+  "age",
+  "education",
+  "school_name",
+  "medium",
+  "profession",
+  "guru_name",
+  "pathshala_id",
+  "status",
+  "approved",
+  "self_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "gr_no",
+   "fieldtype": "Data",
+   "label": "Gr No"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "Mother Name"
+  },
+  {
+   "fieldname": "surname",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "stdnm_guj",
+   "fieldtype": "Data",
+   "label": "Stdnm Guj"
+  },
+  {
+   "fieldname": "std_father_guj",
+   "fieldtype": "Data",
+   "label": "Std Father Guj"
+  },
+  {
+   "fieldname": "std_mother_guj",
+   "fieldtype": "Data",
+   "label": "Std Mother Guj"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Data",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "add_1",
+   "fieldtype": "Data",
+   "label": "Add 1"
+  },
+  {
+   "fieldname": "add_2",
+   "fieldtype": "Data",
+   "label": "Add 2"
+  },
+  {
+   "fieldname": "add_3",
+   "fieldtype": "Data",
+   "label": "Add 3"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "taluka",
+   "fieldtype": "Data",
+   "label": "Taluka"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Data",
+   "label": "Mob No"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Dob"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "school_name",
+   "fieldtype": "Data",
+   "label": "School Name"
+  },
+  {
+   "fieldname": "medium",
+   "fieldtype": "Data",
+   "label": "Medium"
+  },
+  {
+   "fieldname": "profession",
+   "fieldtype": "Data",
+   "label": "Profession"
+  },
+  {
+   "fieldname": "guru_name",
+   "fieldtype": "Data",
+   "label": "Guru Name"
+  },
+  {
+   "fieldname": "pathshala_id",
+   "fieldtype": "Data",
+   "label": "Pathshala Id"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Int",
+   "label": "Status"
+  },
+  {
+   "fieldname": "approved",
+   "fieldtype": "Int",
+   "label": "Approved"
+  },
+  {
+   "fieldname": "self_status",
+   "fieldtype": "Data",
+   "label": "Self Status"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-23 17:03:17.725121",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Students",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

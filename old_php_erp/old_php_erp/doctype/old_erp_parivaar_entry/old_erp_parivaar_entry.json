@@ -1,0 +1,178 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-12-23 15:55:32.808109",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "parivaar_master_id",
+  "member_type",
+  "name1",
+  "photo",
+  "gender",
+  "add_1",
+  "add_2",
+  "add_3",
+  "city",
+  "pincode",
+  "taluka",
+  "district",
+  "state",
+  "phone_no",
+  "mob_no",
+  "dob",
+  "age",
+  "addiction",
+  "education",
+  "profession",
+  "guru_name",
+  "seva"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "parivaar_master_id",
+   "fieldtype": "Int",
+   "label": "Parivaar Master Id"
+  },
+  {
+   "fieldname": "member_type",
+   "fieldtype": "Data",
+   "label": "Member Type"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Data",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "add_1",
+   "fieldtype": "Data",
+   "label": "Add 1"
+  },
+  {
+   "fieldname": "add_2",
+   "fieldtype": "Data",
+   "label": "Add 2"
+  },
+  {
+   "fieldname": "add_3",
+   "fieldtype": "Data",
+   "label": "Add 3"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "taluka",
+   "fieldtype": "Data",
+   "label": "Taluka"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Data",
+   "label": "Mob No"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Dob"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "addiction",
+   "fieldtype": "Data",
+   "label": "Addiction"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "profession",
+   "fieldtype": "Data",
+   "label": "Profession"
+  },
+  {
+   "fieldname": "guru_name",
+   "fieldtype": "Data",
+   "label": "Guru Name"
+  },
+  {
+   "fieldname": "seva",
+   "fieldtype": "Data",
+   "label": "Seva"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-23 17:03:18.600823",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Parivaar Entry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

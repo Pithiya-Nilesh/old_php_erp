@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-12-23 15:55:35.149878",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "member_id",
+  "coursename",
+  "std_id_proof",
+  "form_no",
+  "fees_gr_no",
+  "std_gr_no",
+  "satra",
+  "admission_date",
+  "admission_center",
+  "exam_lang"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "member_id",
+   "fieldtype": "Int",
+   "label": "Member Id"
+  },
+  {
+   "fieldname": "coursename",
+   "fieldtype": "Data",
+   "label": "Coursename"
+  },
+  {
+   "fieldname": "std_id_proof",
+   "fieldtype": "Data",
+   "label": "Std Id Proof"
+  },
+  {
+   "fieldname": "form_no",
+   "fieldtype": "Data",
+   "label": "Form No"
+  },
+  {
+   "fieldname": "fees_gr_no",
+   "fieldtype": "Data",
+   "label": "Fees Gr No"
+  },
+  {
+   "fieldname": "std_gr_no",
+   "fieldtype": "Data",
+   "label": "Std Gr No"
+  },
+  {
+   "fieldname": "satra",
+   "fieldtype": "Data",
+   "label": "Satra"
+  },
+  {
+   "fieldname": "admission_date",
+   "fieldtype": "Date",
+   "label": "Admission Date"
+  },
+  {
+   "fieldname": "admission_center",
+   "fieldtype": "Data",
+   "label": "Admission Center"
+  },
+  {
+   "fieldname": "exam_lang",
+   "fieldtype": "Data",
+   "label": "Exam Lang"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-23 17:03:18.213585",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Vstdcoursedata2",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

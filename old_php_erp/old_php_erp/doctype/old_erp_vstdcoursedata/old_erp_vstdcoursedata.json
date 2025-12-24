@@ -1,0 +1,178 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-12-23 15:55:35.064589",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "member_id",
+  "coursename",
+  "std_id_proof",
+  "form_no",
+  "fees_gr_no",
+  "std_gr_no",
+  "satra",
+  "semester",
+  "admission_date",
+  "admission_center",
+  "exam_lang",
+  "exam_center",
+  "exam_subcenter",
+  "exam_block",
+  "exam_seatno",
+  "vonline_exam_pass",
+  "std_marks",
+  "student_exam_type",
+  "intact_year",
+  "absent_reason",
+  "single_book",
+  "sem_2_3_book"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "member_id",
+   "fieldtype": "Int",
+   "label": "Member Id"
+  },
+  {
+   "fieldname": "coursename",
+   "fieldtype": "Data",
+   "label": "Coursename"
+  },
+  {
+   "fieldname": "std_id_proof",
+   "fieldtype": "Data",
+   "label": "Std Id Proof"
+  },
+  {
+   "fieldname": "form_no",
+   "fieldtype": "Data",
+   "label": "Form No"
+  },
+  {
+   "fieldname": "fees_gr_no",
+   "fieldtype": "Data",
+   "label": "Fees Gr No"
+  },
+  {
+   "fieldname": "std_gr_no",
+   "fieldtype": "Data",
+   "label": "Std Gr No"
+  },
+  {
+   "fieldname": "satra",
+   "fieldtype": "Data",
+   "label": "Satra"
+  },
+  {
+   "fieldname": "semester",
+   "fieldtype": "Data",
+   "label": "Semester"
+  },
+  {
+   "fieldname": "admission_date",
+   "fieldtype": "Date",
+   "label": "Admission Date"
+  },
+  {
+   "fieldname": "admission_center",
+   "fieldtype": "Data",
+   "label": "Admission Center"
+  },
+  {
+   "fieldname": "exam_lang",
+   "fieldtype": "Data",
+   "label": "Exam Lang"
+  },
+  {
+   "fieldname": "exam_center",
+   "fieldtype": "Data",
+   "label": "Exam Center"
+  },
+  {
+   "fieldname": "exam_subcenter",
+   "fieldtype": "Data",
+   "label": "Exam Subcenter"
+  },
+  {
+   "fieldname": "exam_block",
+   "fieldtype": "Data",
+   "label": "Exam Block"
+  },
+  {
+   "fieldname": "exam_seatno",
+   "fieldtype": "Int",
+   "label": "Exam Seatno"
+  },
+  {
+   "fieldname": "vonline_exam_pass",
+   "fieldtype": "Data",
+   "label": "Vonline Exam Pass"
+  },
+  {
+   "fieldname": "std_marks",
+   "fieldtype": "Float",
+   "label": "Std Marks"
+  },
+  {
+   "fieldname": "student_exam_type",
+   "fieldtype": "Data",
+   "label": "Student Exam Type"
+  },
+  {
+   "fieldname": "intact_year",
+   "fieldtype": "Data",
+   "label": "Intact Year"
+  },
+  {
+   "fieldname": "absent_reason",
+   "fieldtype": "Data",
+   "label": "Absent Reason"
+  },
+  {
+   "fieldname": "single_book",
+   "fieldtype": "Int",
+   "label": "Single Book"
+  },
+  {
+   "fieldname": "sem_2_3_book",
+   "fieldtype": "Data",
+   "label": "Sem 2 3 Book"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-23 17:03:19.288448",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Vstdcoursedata",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

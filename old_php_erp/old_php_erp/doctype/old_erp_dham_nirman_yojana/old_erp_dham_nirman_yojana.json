@@ -1,0 +1,173 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2025-12-23 15:55:32.200333",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "member_id",
+  "samiti_member_id",
+  "address_type",
+  "village_id",
+  "area",
+  "pledge_date",
+  "print_name",
+  "village",
+  "amount",
+  "square_feet",
+  "id_proof",
+  "entry_date",
+  "is_foreigner",
+  "country_id",
+  "city",
+  "id_proof_name",
+  "id_proof_no",
+  "id_proof_image",
+  "new_erp_entry"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id",
+   "unique": 1
+  },
+  {
+   "fieldname": "member_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Member Id"
+  },
+  {
+   "fieldname": "samiti_member_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Samiti Member Id"
+  },
+  {
+   "fieldname": "address_type",
+   "fieldtype": "Data",
+   "label": "Address Type"
+  },
+  {
+   "fieldname": "village_id",
+   "fieldtype": "Int",
+   "label": "Village Id"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Text",
+   "label": "Area"
+  },
+  {
+   "fieldname": "pledge_date",
+   "fieldtype": "Data",
+   "label": "Pledge Date"
+  },
+  {
+   "fieldname": "print_name",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Int",
+   "label": "Village"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "square_feet",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Square Feet"
+  },
+  {
+   "fieldname": "id_proof",
+   "fieldtype": "Data",
+   "label": "Id Proof"
+  },
+  {
+   "fieldname": "entry_date",
+   "fieldtype": "Data",
+   "label": "Entry Date"
+  },
+  {
+   "fieldname": "is_foreigner",
+   "fieldtype": "Data",
+   "label": "Is Foreigner"
+  },
+  {
+   "fieldname": "country_id",
+   "fieldtype": "Int",
+   "label": "Country Id"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "id_proof_name",
+   "fieldtype": "Data",
+   "label": "Id Proof Name"
+  },
+  {
+   "fieldname": "id_proof_no",
+   "fieldtype": "Data",
+   "label": "Id Proof No"
+  },
+  {
+   "fieldname": "id_proof_image",
+   "fieldtype": "Data",
+   "label": "Id Proof Image"
+  },
+  {
+   "fieldname": "new_erp_entry",
+   "fieldtype": "Int",
+   "label": "New Erp Entry"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-24 15:40:14.513915",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Dham Nirman Yojana",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

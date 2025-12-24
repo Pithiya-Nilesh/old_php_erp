@@ -1,0 +1,220 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-12-23 15:55:34.337712",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "memberpid",
+  "name1",
+  "photo",
+  "gender",
+  "add_1",
+  "add_2",
+  "add_3",
+  "city",
+  "pincode",
+  "taluka",
+  "district",
+  "state",
+  "email",
+  "phone_no",
+  "mob_no",
+  "dob",
+  "age",
+  "education",
+  "profession",
+  "guru_name",
+  "seva",
+  "course_name",
+  "course2",
+  "course2_date",
+  "addiction",
+  "vidyapith_std_id_proof",
+  "country",
+  "course_lang",
+  "academic_year"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "memberpid",
+   "fieldtype": "Data",
+   "label": "Memberpid"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Data",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "add_1",
+   "fieldtype": "Data",
+   "label": "Add 1"
+  },
+  {
+   "fieldname": "add_2",
+   "fieldtype": "Data",
+   "label": "Add 2"
+  },
+  {
+   "fieldname": "add_3",
+   "fieldtype": "Data",
+   "label": "Add 3"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "taluka",
+   "fieldtype": "Data",
+   "label": "Taluka"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Data",
+   "label": "Mob No"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Dob"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "profession",
+   "fieldtype": "Data",
+   "label": "Profession"
+  },
+  {
+   "fieldname": "guru_name",
+   "fieldtype": "Data",
+   "label": "Guru Name"
+  },
+  {
+   "fieldname": "seva",
+   "fieldtype": "Data",
+   "label": "Seva"
+  },
+  {
+   "fieldname": "course_name",
+   "fieldtype": "Data",
+   "label": "Course Name"
+  },
+  {
+   "fieldname": "course2",
+   "fieldtype": "Data",
+   "label": "Course2"
+  },
+  {
+   "fieldname": "course2_date",
+   "fieldtype": "Date",
+   "label": "Course2 Date"
+  },
+  {
+   "fieldname": "addiction",
+   "fieldtype": "Data",
+   "label": "Addiction"
+  },
+  {
+   "fieldname": "vidyapith_std_id_proof",
+   "fieldtype": "Data",
+   "label": "Vidyapith Std Id Proof"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "course_lang",
+   "fieldtype": "Data",
+   "label": "Course Lang"
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Data",
+   "label": "Academic Year"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-23 17:03:16.467901",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Vidhyapeeth Online Std",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

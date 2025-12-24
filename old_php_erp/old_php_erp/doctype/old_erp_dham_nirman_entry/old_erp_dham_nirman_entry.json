@@ -1,0 +1,145 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:this_id",
+ "creation": "2025-12-23 15:55:32.136904",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "this_id",
+  "bhumidan_yojna_id",
+  "membr_id",
+  "printname",
+  "paid_date",
+  "amount_rs",
+  "payment_type",
+  "bank_details",
+  "receipt_no",
+  "bookno",
+  "remarks",
+  "this_date",
+  "payee_name",
+  "payee_id_proof",
+  "payee_document"
+ ],
+ "fields": [
+  {
+   "fieldname": "this_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "This Id",
+   "unique": 1
+  },
+  {
+   "fieldname": "bhumidan_yojna_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Bhumidan Yojna Id"
+  },
+  {
+   "fieldname": "membr_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Membr Id"
+  },
+  {
+   "fieldname": "printname",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Printname"
+  },
+  {
+   "fieldname": "paid_date",
+   "fieldtype": "Data",
+   "label": "Paid Date"
+  },
+  {
+   "fieldname": "amount_rs",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Amount Rs"
+  },
+  {
+   "fieldname": "payment_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Payment Type"
+  },
+  {
+   "fieldname": "bank_details",
+   "fieldtype": "Data",
+   "label": "Bank Details"
+  },
+  {
+   "fieldname": "receipt_no",
+   "fieldtype": "Data",
+   "label": "Receipt No"
+  },
+  {
+   "fieldname": "bookno",
+   "fieldtype": "Data",
+   "label": "Bookno"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "this_date",
+   "fieldtype": "Data",
+   "label": "This Date"
+  },
+  {
+   "fieldname": "payee_name",
+   "fieldtype": "Text",
+   "label": "Payee Name"
+  },
+  {
+   "fieldname": "payee_id_proof",
+   "fieldtype": "Data",
+   "label": "Payee Id Proof"
+  },
+  {
+   "fieldname": "payee_document",
+   "fieldtype": "Data",
+   "label": "Payee Document"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-24 15:39:22.914872",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Dham Nirman Entry",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

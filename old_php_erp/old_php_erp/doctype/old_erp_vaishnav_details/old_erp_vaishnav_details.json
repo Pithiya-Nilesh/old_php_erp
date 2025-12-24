@@ -1,0 +1,172 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-12-23 15:55:33.736035",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "name1",
+  "add_1",
+  "add_2",
+  "add_3",
+  "city",
+  "taluka",
+  "district",
+  "pincode",
+  "phone_no",
+  "mob_no",
+  "email_id",
+  "blood",
+  "bus_name",
+  "bus_add1",
+  "bus_add2",
+  "bus_add3",
+  "bus_phone",
+  "grade",
+  "caste",
+  "category",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "add_1",
+   "fieldtype": "Data",
+   "label": "Add 1"
+  },
+  {
+   "fieldname": "add_2",
+   "fieldtype": "Data",
+   "label": "Add 2"
+  },
+  {
+   "fieldname": "add_3",
+   "fieldtype": "Data",
+   "label": "Add 3"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "taluka",
+   "fieldtype": "Data",
+   "label": "Taluka"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Data",
+   "label": "Mob No"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email Id"
+  },
+  {
+   "fieldname": "blood",
+   "fieldtype": "Data",
+   "label": "Blood"
+  },
+  {
+   "fieldname": "bus_name",
+   "fieldtype": "Data",
+   "label": "Bus Name"
+  },
+  {
+   "fieldname": "bus_add1",
+   "fieldtype": "Data",
+   "label": "Bus Add1"
+  },
+  {
+   "fieldname": "bus_add2",
+   "fieldtype": "Data",
+   "label": "Bus Add2"
+  },
+  {
+   "fieldname": "bus_add3",
+   "fieldtype": "Data",
+   "label": "Bus Add3"
+  },
+  {
+   "fieldname": "bus_phone",
+   "fieldtype": "Data",
+   "label": "Bus Phone"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Data",
+   "label": "Grade"
+  },
+  {
+   "fieldname": "caste",
+   "fieldtype": "Data",
+   "label": "Caste"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-23 17:03:14.920294",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Vaishnav Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

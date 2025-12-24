@@ -1,0 +1,413 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2025-12-24 13:01:35.712392",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "name1",
+  "hindi_name",
+  "guj_name",
+  "photo",
+  "gender",
+  "add_1",
+  "add_2",
+  "add_3",
+  "city",
+  "pincode",
+  "taluka",
+  "district",
+  "state",
+  "country",
+  "phone_no",
+  "mob_no",
+  "email",
+  "dob",
+  "age",
+  "education",
+  "profession",
+  "guru_name",
+  "seva",
+  "addiction",
+  "pathshala_post",
+  "pathshala_reg_no",
+  "pathshala_reg_date",
+  "pathshala_pass_status",
+  "pathshala_new_password",
+  "parivaar_post",
+  "parivaar_reg_no",
+  "parivaar_reg_date",
+  "pratinidhi_post",
+  "pratinidhi_city",
+  "pratinidhi_reg_date",
+  "vidhypith_course",
+  "vidyapith_std_id_proof",
+  "vform_no",
+  "vidhyapith_fees_gr_no",
+  "vidhypith_std_gr_no",
+  "vonline_exam_pass",
+  "vstd_marks",
+  "vexamrepeater",
+  "vsatra",
+  "intact_year",
+  "vadmission_date",
+  "vadmission_center",
+  "vexam_center",
+  "vexam_subcenter",
+  "vexam_block",
+  "vexam_seatno",
+  "v_exam_lang",
+  "invite_guest",
+  "self_status",
+  "show_id_proof",
+  "id_proof",
+  "id_proof_no",
+  "id_proof_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id",
+   "unique": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "hindi_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Hindi Name"
+  },
+  {
+   "fieldname": "guj_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Guj Name"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Data",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Gender"
+  },
+  {
+   "fieldname": "add_1",
+   "fieldtype": "Data",
+   "label": "Add 1"
+  },
+  {
+   "fieldname": "add_2",
+   "fieldtype": "Data",
+   "label": "Add 2"
+  },
+  {
+   "fieldname": "add_3",
+   "fieldtype": "Data",
+   "label": "Add 3"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "City"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "taluka",
+   "fieldtype": "Data",
+   "label": "Taluka"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Mob No"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Email"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Data",
+   "label": "Dob"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "profession",
+   "fieldtype": "Data",
+   "label": "Profession"
+  },
+  {
+   "fieldname": "guru_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Guru Name"
+  },
+  {
+   "fieldname": "seva",
+   "fieldtype": "Data",
+   "label": "Seva"
+  },
+  {
+   "fieldname": "addiction",
+   "fieldtype": "Data",
+   "label": "Addiction"
+  },
+  {
+   "fieldname": "pathshala_post",
+   "fieldtype": "Data",
+   "label": "Pathshala Post"
+  },
+  {
+   "fieldname": "pathshala_reg_no",
+   "fieldtype": "Data",
+   "label": "Pathshala Reg No"
+  },
+  {
+   "fieldname": "pathshala_reg_date",
+   "fieldtype": "Data",
+   "label": "Pathshala Reg Date"
+  },
+  {
+   "fieldname": "pathshala_pass_status",
+   "fieldtype": "Int",
+   "label": "Pathshala Pass Status"
+  },
+  {
+   "fieldname": "pathshala_new_password",
+   "fieldtype": "Data",
+   "label": "Pathshala New Password"
+  },
+  {
+   "fieldname": "parivaar_post",
+   "fieldtype": "Data",
+   "label": "Parivaar Post"
+  },
+  {
+   "fieldname": "parivaar_reg_no",
+   "fieldtype": "Data",
+   "label": "Parivaar Reg No"
+  },
+  {
+   "fieldname": "parivaar_reg_date",
+   "fieldtype": "Data",
+   "label": "Parivaar Reg Date"
+  },
+  {
+   "fieldname": "pratinidhi_post",
+   "fieldtype": "Data",
+   "label": "Pratinidhi Post"
+  },
+  {
+   "fieldname": "pratinidhi_city",
+   "fieldtype": "Data",
+   "label": "Pratinidhi City"
+  },
+  {
+   "fieldname": "pratinidhi_reg_date",
+   "fieldtype": "Data",
+   "label": "Pratinidhi Reg Date"
+  },
+  {
+   "fieldname": "vidhypith_course",
+   "fieldtype": "Data",
+   "label": "Vidhypith Course"
+  },
+  {
+   "fieldname": "vidyapith_std_id_proof",
+   "fieldtype": "Data",
+   "label": "Vidyapith Std Id Proof"
+  },
+  {
+   "fieldname": "vform_no",
+   "fieldtype": "Data",
+   "label": "Vform No"
+  },
+  {
+   "fieldname": "vidhyapith_fees_gr_no",
+   "fieldtype": "Data",
+   "label": "Vidhyapith Fees Gr No"
+  },
+  {
+   "fieldname": "vidhypith_std_gr_no",
+   "fieldtype": "Data",
+   "label": "Vidhypith Std Gr No"
+  },
+  {
+   "fieldname": "vonline_exam_pass",
+   "fieldtype": "Data",
+   "label": "Vonline Exam Pass"
+  },
+  {
+   "fieldname": "vstd_marks",
+   "fieldtype": "Data",
+   "label": "Vstd Marks"
+  },
+  {
+   "fieldname": "vexamrepeater",
+   "fieldtype": "Data",
+   "label": "Vexamrepeater"
+  },
+  {
+   "fieldname": "vsatra",
+   "fieldtype": "Data",
+   "label": "Vsatra"
+  },
+  {
+   "fieldname": "intact_year",
+   "fieldtype": "Data",
+   "label": "Intact Year"
+  },
+  {
+   "fieldname": "vadmission_date",
+   "fieldtype": "Data",
+   "label": "Vadmission Date"
+  },
+  {
+   "fieldname": "vadmission_center",
+   "fieldtype": "Data",
+   "label": "Vadmission Center"
+  },
+  {
+   "fieldname": "vexam_center",
+   "fieldtype": "Data",
+   "label": "Vexam Center"
+  },
+  {
+   "fieldname": "vexam_subcenter",
+   "fieldtype": "Data",
+   "label": "Vexam Subcenter"
+  },
+  {
+   "fieldname": "vexam_block",
+   "fieldtype": "Data",
+   "label": "Vexam Block"
+  },
+  {
+   "fieldname": "vexam_seatno",
+   "fieldtype": "Int",
+   "label": "Vexam Seatno"
+  },
+  {
+   "fieldname": "v_exam_lang",
+   "fieldtype": "Data",
+   "label": "V Exam Lang"
+  },
+  {
+   "fieldname": "invite_guest",
+   "fieldtype": "Int",
+   "label": "Invite Guest"
+  },
+  {
+   "fieldname": "self_status",
+   "fieldtype": "Data",
+   "label": "Self Status"
+  },
+  {
+   "fieldname": "show_id_proof",
+   "fieldtype": "Data",
+   "label": "Show Id Proof"
+  },
+  {
+   "fieldname": "id_proof",
+   "fieldtype": "Data",
+   "label": "Id Proof"
+  },
+  {
+   "fieldname": "id_proof_no",
+   "fieldtype": "Data",
+   "label": "Id Proof No"
+  },
+  {
+   "fieldname": "id_proof_image",
+   "fieldtype": "Data",
+   "label": "Id Proof Image"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-24 15:44:08.860451",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Member",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

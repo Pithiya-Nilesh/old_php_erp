@@ -1,0 +1,226 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-12-23 15:55:33.804324",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "member_id",
+  "name1",
+  "birth_date",
+  "janmatithi",
+  "gender",
+  "age",
+  "add_1",
+  "add_2",
+  "add_3",
+  "city",
+  "pincode",
+  "taluka",
+  "district",
+  "phone_no",
+  "mob_no",
+  "education",
+  "profession",
+  "guru_name",
+  "seva",
+  "satsang",
+  "chk1",
+  "chk2",
+  "chk3",
+  "chk4",
+  "chk5",
+  "chk6",
+  "chk7",
+  "chk8",
+  "image",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "member_id",
+   "fieldtype": "Data",
+   "label": "Member Id"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "birth_date",
+   "fieldtype": "Date",
+   "label": "Birth Date"
+  },
+  {
+   "fieldname": "janmatithi",
+   "fieldtype": "Data",
+   "label": "Janmatithi"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "add_1",
+   "fieldtype": "Data",
+   "label": "Add 1"
+  },
+  {
+   "fieldname": "add_2",
+   "fieldtype": "Data",
+   "label": "Add 2"
+  },
+  {
+   "fieldname": "add_3",
+   "fieldtype": "Data",
+   "label": "Add 3"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "taluka",
+   "fieldtype": "Data",
+   "label": "Taluka"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Data",
+   "label": "Mob No"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "profession",
+   "fieldtype": "Data",
+   "label": "Profession"
+  },
+  {
+   "fieldname": "guru_name",
+   "fieldtype": "Data",
+   "label": "Guru Name"
+  },
+  {
+   "fieldname": "seva",
+   "fieldtype": "Data",
+   "label": "Seva"
+  },
+  {
+   "fieldname": "satsang",
+   "fieldtype": "Data",
+   "label": "Satsang"
+  },
+  {
+   "fieldname": "chk1",
+   "fieldtype": "Data",
+   "label": "Chk1"
+  },
+  {
+   "fieldname": "chk2",
+   "fieldtype": "Data",
+   "label": "Chk2"
+  },
+  {
+   "fieldname": "chk3",
+   "fieldtype": "Data",
+   "label": "Chk3"
+  },
+  {
+   "fieldname": "chk4",
+   "fieldtype": "Data",
+   "label": "Chk4"
+  },
+  {
+   "fieldname": "chk5",
+   "fieldtype": "Data",
+   "label": "Chk5"
+  },
+  {
+   "fieldname": "chk6",
+   "fieldtype": "Data",
+   "label": "Chk6"
+  },
+  {
+   "fieldname": "chk7",
+   "fieldtype": "Data",
+   "label": "Chk7"
+  },
+  {
+   "fieldname": "chk8",
+   "fieldtype": "Data",
+   "label": "Chk8"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Data",
+   "label": "Image"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-23 17:03:18.883698",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Vallabh Pariwar",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

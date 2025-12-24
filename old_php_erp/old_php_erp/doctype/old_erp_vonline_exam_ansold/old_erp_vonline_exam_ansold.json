@@ -1,0 +1,550 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-12-23 15:55:34.890307",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "login_attept",
+  "exam_userid",
+  "vgrno",
+  "username",
+  "login_time",
+  "end_time",
+  "totaltime",
+  "remaining_time",
+  "status",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "q5",
+  "q6",
+  "q7",
+  "q8",
+  "q9",
+  "q10",
+  "q11",
+  "q12",
+  "q13",
+  "q14",
+  "q15",
+  "q16",
+  "q17",
+  "q18",
+  "q19",
+  "q20",
+  "q21",
+  "q22",
+  "q23",
+  "q24",
+  "q25",
+  "q26",
+  "q27",
+  "q28",
+  "q29",
+  "q30",
+  "q31",
+  "q32",
+  "q33",
+  "q34",
+  "q35",
+  "q36",
+  "q37",
+  "q38",
+  "q39",
+  "q40",
+  "q41",
+  "q42",
+  "q43",
+  "q44",
+  "q45",
+  "q46",
+  "q47",
+  "q48",
+  "q49",
+  "q50",
+  "q51",
+  "q52",
+  "q53",
+  "q54",
+  "q55",
+  "q56",
+  "q57",
+  "q58",
+  "q59",
+  "q60",
+  "q61",
+  "q62",
+  "q63",
+  "q64",
+  "q65",
+  "q66",
+  "q67",
+  "q68",
+  "q69",
+  "q70",
+  "q71",
+  "q72",
+  "q73",
+  "q74",
+  "q75"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
+  {
+   "fieldname": "login_attept",
+   "fieldtype": "Int",
+   "label": "Login Attept"
+  },
+  {
+   "fieldname": "exam_userid",
+   "fieldtype": "Int",
+   "label": "Exam Userid"
+  },
+  {
+   "fieldname": "vgrno",
+   "fieldtype": "Data",
+   "label": "Vgrno"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Username"
+  },
+  {
+   "fieldname": "login_time",
+   "fieldtype": "Datetime",
+   "label": "Login Time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Datetime",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "totaltime",
+   "fieldtype": "Data",
+   "label": "Totaltime"
+  },
+  {
+   "fieldname": "remaining_time",
+   "fieldtype": "Data",
+   "label": "Remaining Time"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "q1",
+   "fieldtype": "Data",
+   "label": "Q1"
+  },
+  {
+   "fieldname": "q2",
+   "fieldtype": "Data",
+   "label": "Q2"
+  },
+  {
+   "fieldname": "q3",
+   "fieldtype": "Data",
+   "label": "Q3"
+  },
+  {
+   "fieldname": "q4",
+   "fieldtype": "Data",
+   "label": "Q4"
+  },
+  {
+   "fieldname": "q5",
+   "fieldtype": "Data",
+   "label": "Q5"
+  },
+  {
+   "fieldname": "q6",
+   "fieldtype": "Data",
+   "label": "Q6"
+  },
+  {
+   "fieldname": "q7",
+   "fieldtype": "Data",
+   "label": "Q7"
+  },
+  {
+   "fieldname": "q8",
+   "fieldtype": "Data",
+   "label": "Q8"
+  },
+  {
+   "fieldname": "q9",
+   "fieldtype": "Data",
+   "label": "Q9"
+  },
+  {
+   "fieldname": "q10",
+   "fieldtype": "Data",
+   "label": "Q10"
+  },
+  {
+   "fieldname": "q11",
+   "fieldtype": "Data",
+   "label": "Q11"
+  },
+  {
+   "fieldname": "q12",
+   "fieldtype": "Data",
+   "label": "Q12"
+  },
+  {
+   "fieldname": "q13",
+   "fieldtype": "Data",
+   "label": "Q13"
+  },
+  {
+   "fieldname": "q14",
+   "fieldtype": "Data",
+   "label": "Q14"
+  },
+  {
+   "fieldname": "q15",
+   "fieldtype": "Data",
+   "label": "Q15"
+  },
+  {
+   "fieldname": "q16",
+   "fieldtype": "Data",
+   "label": "Q16"
+  },
+  {
+   "fieldname": "q17",
+   "fieldtype": "Data",
+   "label": "Q17"
+  },
+  {
+   "fieldname": "q18",
+   "fieldtype": "Data",
+   "label": "Q18"
+  },
+  {
+   "fieldname": "q19",
+   "fieldtype": "Data",
+   "label": "Q19"
+  },
+  {
+   "fieldname": "q20",
+   "fieldtype": "Data",
+   "label": "Q20"
+  },
+  {
+   "fieldname": "q21",
+   "fieldtype": "Data",
+   "label": "Q21"
+  },
+  {
+   "fieldname": "q22",
+   "fieldtype": "Data",
+   "label": "Q22"
+  },
+  {
+   "fieldname": "q23",
+   "fieldtype": "Data",
+   "label": "Q23"
+  },
+  {
+   "fieldname": "q24",
+   "fieldtype": "Data",
+   "label": "Q24"
+  },
+  {
+   "fieldname": "q25",
+   "fieldtype": "Data",
+   "label": "Q25"
+  },
+  {
+   "fieldname": "q26",
+   "fieldtype": "Data",
+   "label": "Q26"
+  },
+  {
+   "fieldname": "q27",
+   "fieldtype": "Data",
+   "label": "Q27"
+  },
+  {
+   "fieldname": "q28",
+   "fieldtype": "Data",
+   "label": "Q28"
+  },
+  {
+   "fieldname": "q29",
+   "fieldtype": "Data",
+   "label": "Q29"
+  },
+  {
+   "fieldname": "q30",
+   "fieldtype": "Data",
+   "label": "Q30"
+  },
+  {
+   "fieldname": "q31",
+   "fieldtype": "Data",
+   "label": "Q31"
+  },
+  {
+   "fieldname": "q32",
+   "fieldtype": "Data",
+   "label": "Q32"
+  },
+  {
+   "fieldname": "q33",
+   "fieldtype": "Data",
+   "label": "Q33"
+  },
+  {
+   "fieldname": "q34",
+   "fieldtype": "Data",
+   "label": "Q34"
+  },
+  {
+   "fieldname": "q35",
+   "fieldtype": "Data",
+   "label": "Q35"
+  },
+  {
+   "fieldname": "q36",
+   "fieldtype": "Data",
+   "label": "Q36"
+  },
+  {
+   "fieldname": "q37",
+   "fieldtype": "Data",
+   "label": "Q37"
+  },
+  {
+   "fieldname": "q38",
+   "fieldtype": "Data",
+   "label": "Q38"
+  },
+  {
+   "fieldname": "q39",
+   "fieldtype": "Data",
+   "label": "Q39"
+  },
+  {
+   "fieldname": "q40",
+   "fieldtype": "Data",
+   "label": "Q40"
+  },
+  {
+   "fieldname": "q41",
+   "fieldtype": "Data",
+   "label": "Q41"
+  },
+  {
+   "fieldname": "q42",
+   "fieldtype": "Data",
+   "label": "Q42"
+  },
+  {
+   "fieldname": "q43",
+   "fieldtype": "Data",
+   "label": "Q43"
+  },
+  {
+   "fieldname": "q44",
+   "fieldtype": "Data",
+   "label": "Q44"
+  },
+  {
+   "fieldname": "q45",
+   "fieldtype": "Data",
+   "label": "Q45"
+  },
+  {
+   "fieldname": "q46",
+   "fieldtype": "Data",
+   "label": "Q46"
+  },
+  {
+   "fieldname": "q47",
+   "fieldtype": "Data",
+   "label": "Q47"
+  },
+  {
+   "fieldname": "q48",
+   "fieldtype": "Data",
+   "label": "Q48"
+  },
+  {
+   "fieldname": "q49",
+   "fieldtype": "Data",
+   "label": "Q49"
+  },
+  {
+   "fieldname": "q50",
+   "fieldtype": "Data",
+   "label": "Q50"
+  },
+  {
+   "fieldname": "q51",
+   "fieldtype": "Data",
+   "label": "Q51"
+  },
+  {
+   "fieldname": "q52",
+   "fieldtype": "Data",
+   "label": "Q52"
+  },
+  {
+   "fieldname": "q53",
+   "fieldtype": "Data",
+   "label": "Q53"
+  },
+  {
+   "fieldname": "q54",
+   "fieldtype": "Data",
+   "label": "Q54"
+  },
+  {
+   "fieldname": "q55",
+   "fieldtype": "Data",
+   "label": "Q55"
+  },
+  {
+   "fieldname": "q56",
+   "fieldtype": "Data",
+   "label": "Q56"
+  },
+  {
+   "fieldname": "q57",
+   "fieldtype": "Data",
+   "label": "Q57"
+  },
+  {
+   "fieldname": "q58",
+   "fieldtype": "Data",
+   "label": "Q58"
+  },
+  {
+   "fieldname": "q59",
+   "fieldtype": "Data",
+   "label": "Q59"
+  },
+  {
+   "fieldname": "q60",
+   "fieldtype": "Data",
+   "label": "Q60"
+  },
+  {
+   "fieldname": "q61",
+   "fieldtype": "Data",
+   "label": "Q61"
+  },
+  {
+   "fieldname": "q62",
+   "fieldtype": "Data",
+   "label": "Q62"
+  },
+  {
+   "fieldname": "q63",
+   "fieldtype": "Data",
+   "label": "Q63"
+  },
+  {
+   "fieldname": "q64",
+   "fieldtype": "Data",
+   "label": "Q64"
+  },
+  {
+   "fieldname": "q65",
+   "fieldtype": "Data",
+   "label": "Q65"
+  },
+  {
+   "fieldname": "q66",
+   "fieldtype": "Data",
+   "label": "Q66"
+  },
+  {
+   "fieldname": "q67",
+   "fieldtype": "Data",
+   "label": "Q67"
+  },
+  {
+   "fieldname": "q68",
+   "fieldtype": "Data",
+   "label": "Q68"
+  },
+  {
+   "fieldname": "q69",
+   "fieldtype": "Data",
+   "label": "Q69"
+  },
+  {
+   "fieldname": "q70",
+   "fieldtype": "Data",
+   "label": "Q70"
+  },
+  {
+   "fieldname": "q71",
+   "fieldtype": "Data",
+   "label": "Q71"
+  },
+  {
+   "fieldname": "q72",
+   "fieldtype": "Data",
+   "label": "Q72"
+  },
+  {
+   "fieldname": "q73",
+   "fieldtype": "Data",
+   "label": "Q73"
+  },
+  {
+   "fieldname": "q74",
+   "fieldtype": "Data",
+   "label": "Q74"
+  },
+  {
+   "fieldname": "q75",
+   "fieldtype": "Data",
+   "label": "Q75"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-23 17:03:17.545742",
+ "modified_by": "Administrator",
+ "module": "Old Php Erp",
+ "name": "Old ERP Vonline Exam Ansold",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
