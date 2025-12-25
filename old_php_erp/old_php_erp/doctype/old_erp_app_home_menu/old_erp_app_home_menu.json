@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:31.508276",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -16,11 +17,14 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "name1",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Name"
   },
   {
@@ -31,16 +35,19 @@
   {
    "fieldname": "datetime",
    "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Datetime"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:20.223926",
+ "modified": "2025-12-25 15:28:31.519680",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP App Home Menu",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

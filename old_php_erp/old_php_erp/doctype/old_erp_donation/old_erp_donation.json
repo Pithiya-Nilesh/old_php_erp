@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:32.384147",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -32,21 +33,28 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "member_id",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Member Id"
   },
   {
    "fieldname": "name1",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Name"
   },
   {
    "fieldname": "donate_date",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Donate Date"
   },
   {
@@ -72,6 +80,8 @@
   {
    "fieldname": "city",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "City"
   },
   {
@@ -82,11 +92,15 @@
   {
    "fieldname": "taluka",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Taluka"
   },
   {
    "fieldname": "district",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "District"
   },
   {
@@ -102,26 +116,34 @@
   {
    "fieldname": "mob_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Mob No"
   },
   {
    "fieldname": "dob",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Dob"
   },
   {
    "fieldname": "member_type",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Member Type"
   },
   {
    "fieldname": "rupee",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Rupee"
   },
   {
    "fieldname": "receipt_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Receipt No"
   },
   {
@@ -133,10 +155,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:15.839477",
+ "modified": "2025-12-25 12:21:00.872063",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Donation",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

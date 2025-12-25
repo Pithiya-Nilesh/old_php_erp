@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:33.327225",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -32,16 +33,21 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "parent_id",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Parent Id"
   },
   {
    "fieldname": "name1",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Name"
   },
   {
@@ -62,6 +68,8 @@
   {
    "fieldname": "city",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "City"
   },
   {
@@ -77,6 +85,8 @@
   {
    "fieldname": "district",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "District"
   },
   {
@@ -87,11 +97,13 @@
   {
    "fieldname": "mob_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Mob No"
   },
   {
    "fieldname": "dob",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Dob"
   },
   {
@@ -102,6 +114,8 @@
   {
    "fieldname": "education",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Education"
   },
   {
@@ -117,6 +131,8 @@
   {
    "fieldname": "guru_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Guru Name"
   },
   {
@@ -133,10 +149,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:18.485243",
+ "modified": "2025-12-25 13:42:03.961141",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Sub Sanchalak",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

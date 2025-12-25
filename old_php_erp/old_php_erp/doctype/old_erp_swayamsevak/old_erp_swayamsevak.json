@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:33.396752",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -22,11 +23,14 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Full Name"
   },
   {
@@ -37,11 +41,15 @@
   {
    "fieldname": "city",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "City"
   },
   {
    "fieldname": "contact_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Contact No"
   },
   {
@@ -51,12 +59,14 @@
   },
   {
    "fieldname": "remarks",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Remarks"
   },
   {
    "fieldname": "status",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Status"
   },
   {
@@ -73,10 +83,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:19.183109",
+ "modified": "2025-12-25 13:41:42.494626",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Swayamsevak",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

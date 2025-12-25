@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:32.895596",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -22,26 +23,34 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "reg_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Reg No"
   },
   {
    "fieldname": "reg_date",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Reg Date"
   },
   {
    "fieldname": "parivaar_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Parivaar Name"
   },
   {
    "fieldname": "city",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "City"
   },
   {
@@ -57,6 +66,8 @@
   {
    "fieldname": "district",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "District"
   },
   {
@@ -73,10 +84,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:18.103168",
+ "modified": "2025-12-25 13:22:04.507166",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Parivaar Master",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

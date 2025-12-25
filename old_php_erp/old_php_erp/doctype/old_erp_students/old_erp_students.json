@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:33.247159",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -44,21 +45,28 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "gr_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Gr No"
   },
   {
    "fieldname": "name1",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Name"
   },
   {
    "fieldname": "father_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Father Name"
   },
   {
@@ -109,6 +117,8 @@
   {
    "fieldname": "city",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "City"
   },
   {
@@ -124,6 +134,8 @@
   {
    "fieldname": "district",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "District"
   },
   {
@@ -139,31 +151,41 @@
   {
    "fieldname": "phone_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Phone No"
   },
   {
    "fieldname": "mob_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Mob No"
   },
   {
    "fieldname": "dob",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Dob"
   },
   {
    "fieldname": "age",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Age"
   },
   {
    "fieldname": "education",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Education"
   },
   {
    "fieldname": "school_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "School Name"
   },
   {
@@ -184,16 +206,22 @@
   {
    "fieldname": "pathshala_id",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Pathshala Id"
   },
   {
    "fieldname": "status",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Status"
   },
   {
    "fieldname": "approved",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Approved"
   },
   {
@@ -205,10 +233,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:17.725121",
+ "modified": "2025-12-25 12:51:41.229720",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Students",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

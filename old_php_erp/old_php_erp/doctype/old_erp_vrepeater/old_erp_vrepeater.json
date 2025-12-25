@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:35.004100",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -17,36 +18,46 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "memberid",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Memberid"
   },
   {
    "fieldname": "vstddata_id",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Vstddata Id"
   },
   {
    "fieldname": "oldmarks",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Oldmarks"
   },
   {
    "fieldname": "date",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Date"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:18.399133",
+ "modified": "2025-12-25 15:39:45.456108",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Vrepeater",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:35.149878",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -23,16 +24,21 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "member_id",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Member Id"
   },
   {
    "fieldname": "coursename",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Coursename"
   },
   {
@@ -43,16 +49,22 @@
   {
    "fieldname": "form_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Form No"
   },
   {
    "fieldname": "fees_gr_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Fees Gr No"
   },
   {
    "fieldname": "std_gr_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Std Gr No"
   },
   {
@@ -62,7 +74,7 @@
   },
   {
    "fieldname": "admission_date",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Admission Date"
   },
   {
@@ -79,10 +91,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:18.213585",
+ "modified": "2025-12-25 15:35:37.676753",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Vstdcoursedata2",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
