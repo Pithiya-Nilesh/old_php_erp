@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:34.337712",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -42,16 +43,21 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "memberpid",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Memberpid"
   },
   {
    "fieldname": "name1",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Name"
   },
   {
@@ -62,6 +68,8 @@
   {
    "fieldname": "gender",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Gender"
   },
   {
@@ -82,6 +90,8 @@
   {
    "fieldname": "city",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "City"
   },
   {
@@ -102,6 +112,8 @@
   {
    "fieldname": "state",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "State"
   },
   {
@@ -117,11 +129,13 @@
   {
    "fieldname": "mob_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Mob No"
   },
   {
    "fieldname": "dob",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Dob"
   },
   {
@@ -161,7 +175,7 @@
   },
   {
    "fieldname": "course2_date",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Course2 Date"
   },
   {
@@ -193,10 +207,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:16.467901",
+ "modified": "2025-12-26 16:54:50.627860",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Vidhyapeeth Online Std",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

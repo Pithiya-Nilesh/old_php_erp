@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:34.156028",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -23,31 +24,38 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "member_id",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Member Id"
   },
   {
    "fieldname": "course_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Course Name"
   },
   {
    "fieldname": "book_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Book Name"
   },
   {
    "fieldname": "question",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Question"
   },
   {
    "fieldname": "answer",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Answer"
   },
   {
@@ -57,7 +65,7 @@
   },
   {
    "fieldname": "date",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Date"
   },
   {
@@ -67,22 +75,25 @@
   },
   {
    "fieldname": "reply_date",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Reply Date"
   },
   {
    "fieldname": "status",
    "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Status"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:19.718244",
+ "modified": "2025-12-26 17:06:33.744649",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Vidhyapeeth Doubts",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [],
  "row_format": "Dynamic",

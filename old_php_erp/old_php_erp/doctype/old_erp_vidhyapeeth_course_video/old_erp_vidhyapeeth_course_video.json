@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:34.088366",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -22,31 +23,40 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "course_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Course Name"
   },
   {
    "fieldname": "semester",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Semester"
   },
   {
    "fieldname": "book_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Book Name"
   },
   {
    "fieldname": "video_title",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Video Title"
   },
   {
    "fieldname": "description",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Description"
   },
   {
@@ -73,10 +83,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:15.400195",
+ "modified": "2025-12-26 17:08:37.212504",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Vidhyapeeth Course Video",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

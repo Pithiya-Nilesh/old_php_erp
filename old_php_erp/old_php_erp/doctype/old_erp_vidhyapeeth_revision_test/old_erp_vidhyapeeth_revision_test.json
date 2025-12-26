@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:34.411590",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -25,26 +26,35 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "course_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Course Name"
   },
   {
    "fieldname": "semester",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Semester"
   },
   {
    "fieldname": "subject",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Subject"
   },
   {
    "fieldname": "chapter_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Chapter No"
   },
   {
@@ -54,7 +64,7 @@
   },
   {
    "fieldname": "question",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Question"
   },
   {
@@ -74,7 +84,7 @@
   },
   {
    "fieldname": "opt_4",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Opt 4"
   },
   {
@@ -91,10 +101,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:18.302181",
+ "modified": "2025-12-26 16:52:43.921858",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Vidhyapeeth Revision Test",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

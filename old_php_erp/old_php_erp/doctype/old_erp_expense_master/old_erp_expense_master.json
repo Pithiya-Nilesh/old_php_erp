@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:id",
  "creation": "2025-12-23 15:55:32.574847",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -27,36 +28,49 @@
   {
    "fieldname": "id",
    "fieldtype": "Int",
-   "label": "Id"
+   "label": "Id",
+   "unique": 1
   },
   {
    "fieldname": "category",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Category"
   },
   {
    "fieldname": "expense_type",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Expense Type"
   },
   {
    "fieldname": "voucher_bill_date",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Voucher Bill Date"
   },
   {
    "fieldname": "bill_number",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Bill Number"
   },
   {
    "fieldname": "amount",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Amount"
   },
   {
    "fieldname": "vendor_payee_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Vendor Payee Name"
   },
   {
@@ -67,11 +81,13 @@
   {
    "fieldname": "paid_by",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Paid By"
   },
   {
    "fieldname": "bill_payment_date",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Bill Payment Date"
   },
   {
@@ -87,6 +103,8 @@
   {
    "fieldname": "cheque_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Cheque No"
   },
   {
@@ -96,17 +114,18 @@
   },
   {
    "fieldname": "create_at",
-   "fieldtype": "Datetime",
+   "fieldtype": "Data",
    "label": "Create At"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-23 17:03:17.840736",
+ "modified": "2025-12-26 18:17:26.686379",
  "modified_by": "Administrator",
  "module": "Old Php Erp",
  "name": "Old ERP Expense Master",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
